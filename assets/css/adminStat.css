@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Raleway:wght@300;700&family=Roboto:ital,wght@0,300;0,500;1,300&family=Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,800&family=Raleway:wght@300;700&family=Roboto:ital,wght@0,300;0,500;1,300&family=Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+
+.stat-main {
+    height: 100vh;
+    width: 85%;
+    margin-top: 150px;
+    margin-left: 295px;
+   
+}
+
+.stat-main .stat-header{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.stat-main .stat-header .stat-title{
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.stat-main .stat-header .stat-dropdown {
+    position: absolute;
+    right: 5%;
+    top: 10px;
+}
+
+.stat-main .stat-header .stat-dropdown .Stats{
+    width: 177px;
+    height: 59px;
+    
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    
+    outline: none;
+    border: none;
+
+    border-right: 30px solid #FFF;
+}
+
+.stat-main .stat-container{
+    width: 95%;
+    height: auto;
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+    padding: 30px;
+
+}
+
+.stat-main .stat-container .nav-cont{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 80px;
+}
+
+.stat-container .nav-cont .product-n,.sales-n,.deliveries-n,.orders-n,.best-n{
+    width: 230px;
+    height: 50px;
+    border-radius: 7px;
+    background: #D9D9D9;
+
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
+.stat-main .stat-container .graph-content .data--cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.stat-main .stat-container .graph-content .data--cont .data-box{
+    width: 227px;
+    height: 97px;
+    border-radius: 11px;
+    background: #FDE402;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    padding-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 11px;
+}
+
+.stat-main .stat-container .graph-content .data--cont .data-box .data-tag{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-bottom: -8px;
+}
+
+.stat-main .stat-container .graph-content .data--cont .data-box .data-value{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stat-main .stat-container .print-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

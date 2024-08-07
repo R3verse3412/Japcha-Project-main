@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    box-sizing: content-box;
+    max-height: 1100px;
+    max-width: 80%;
+    margin-right: 80px;
+    margin-left: 280px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+
+  .manage-order {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .status-bar {
+    border-radius: 15px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    font-weight: bold;
+    background-color: #fff;
+  }
+
+  .status {
+    flex: 1;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-basis: 100%;
+    display: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  .cancel {
+    border: 1px solid #e74c3c;
+    background-color: white;
+    color: #e74c3c;
+  }
+
+  .accept {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .New, .Preparing, .Delivery, .Complete {
+    flex-basis: calc(25% - 10px);
+    font-size: 18px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    transition-duration: 0.4s;
+    
+  }
+
+  .New:hover, .Preparing:hover, .Delivery:hover, .Complete:hover {
+    background-color: #D4D73D;
+    color: black;
+  }
+
+  .order-list {
+    flex-basis: calc(50% - 10px);
+    background-color: #fff;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .order-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .order-list li {
+    margin-bottom: 10px;
+  }
+
+  .order-info {
+    flex-basis: calc(50% - 10px);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  .order-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .order-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .order-info th, .order-info td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+
+  .order-info th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  .order-list .order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.order-list {
+  flex: 1;
+  flex-direction: column;
+}
+
+.order-list .order-actions {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.order-list .order-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.list {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.order-list .order-actions .remove-button {
+  border: 1px solid #e74c3c;
+  background-color: white;
+  color: #e74c3c;
+}
+
+.order-list .order-actions .deliver-button {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Style for the Add-ons Section */
+.addons-section {
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc;
+  max-height: 500px;
+  overflow: auto;
+}
+
+/* Style for each Add-on */
+.addon {
+  display: flex;
+  align-items: center;
+
+}
+
+.addon img {
+  width: 50px; /* Adjust the image width as needed */
+  height: auto;
+}
+
+.addon-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.product-name,
+.quantity,
+.sample,
+.price {
+  flex-basis: 25%; /* Equal width for each element */
+  text-align: center;
+}
+
+.separator {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 20px;
+}
+
+/* Style for the Delivery Orders List Section */
+#deliveryOrders {
+  display: block; /* Display the delivery orders section when clicked */
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #e74c3c;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.order-details {
+  flex: 1;
+}
+
+.order-actions {
+  flex-basis: 100px;
+  display: flex;
+  align-items: center;
+}
+
+button.complete {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* CSS for the "Remove" button */
+.remove-button {
+    border: 1px solid #e74c3c;
+    background-color: white;
+    color: #e74c3c;
+    border-radius: 5px;
+  }
+
+.order1 {
+  color: #0EA93A;
+  font-weight: 900;
+}
+
+.clear-all-button{
+  margin-left: 690px;
+  border: 1px solid #0500FF;
+    background-color: white;
+    color: #082DF1;
+}
+
+.Cash-On-delivery{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: end;
+
+}

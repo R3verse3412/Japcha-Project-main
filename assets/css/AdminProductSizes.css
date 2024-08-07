@@ -1,0 +1,5 @@
+select option[disabled] {
+    color: gray; /* You can use any styling you prefer */
+    font-style: italic;
+    /* Add more styles as needed */
+  }

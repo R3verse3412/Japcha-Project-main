@@ -1,0 +1,28 @@
+/* ADMIN PRODUCTS */
+.modal-body{
+    gap: 10px;
+}
+.modal2{
+    display: none;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: rgba(125, 124, 124, 0.45);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.6s;
+    transform: scale(0);
+}
+
+.formProducts1{
+    /* display: flex;
+    position: relative;
+    flex-direction: column;
+    background: #F8F8F8;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px; */
+ 
+  }

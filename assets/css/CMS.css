@@ -1,0 +1,44 @@
+.CmsAboutUs-Container{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.CmsAboutUs-Container .headerAboutUs{
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.CmsAboutUs-Container .EditFieldCon{
+    width: 100%;
+    /* background-color: aqua; */
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.EditFieldCon label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.EditFieldCon .saveJapcha{
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 1px;
+    text-decoration: none;
+    color: #2f2f2f;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.EditFieldCon .saveJapcha:hover{
+    background-color: #191a19;
+    border: 1px solid #2f2f2f;
+    text-decoration: none;
+    color: white;
+}

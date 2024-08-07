@@ -1,0 +1,77 @@
+.container {
+    height: auto; 
+    width: 100%; 
+    padding-left: 280px;  
+    margin-top: 110px; 
+    margin-left: 170px;
+}
+.orderMainCont {
+        padding: 20px;
+    }
+
+    .moptitle {
+        margin-top: 20px;
+    }
+
+    .modcont {
+        display: flex;
+    }
+
+    .cod,
+    .gcash {
+        margin-right: 20px;
+    }
+
+    .productbg img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .prodDetails mt-4 .hr {
+        border: 5px solid gray;
+        
+    }
+
+    .new4 {
+        border: 2px solid gray;
+
+    }
+
+    .Remarks{
+        text-align: center;
+    }
+
+    .form-controls {
+        text-align: center;
+        height: 100px;
+        width: 100px; 
+    }
+
+    .btn btn-link {
+        color: #D0BC05;
+    }
+
+    .card-img-top{
+        max-width: 100px; 
+        max-height: 100px; 
+        background-color:#D0BC05;
+        border-style: ridge;
+    }
+    
+    .totalPrice{
+        text-align: center;
+    }
+
+    .btn{
+        background-color:#D0BC05;
+        color: black;
+        width: 150px;
+    }
+
+    .table{
+        margin-top: 50px;
+    }
+
+    .modal-gcash{
+        text-align: center;
+    }

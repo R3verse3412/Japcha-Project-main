@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Raleway:wght@300;700&family=Roboto:ital,wght@0,300;0,500;1,300&family=Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,800&family=Raleway:wght@300;700&family=Roboto:ital,wght@0,300;0,500;1,300&family=Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+
+.addCart-maincont{
+
+    display: flex;
+    z-index: 990;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.452);
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    overflow: auto;
+    justify-content: flex-end;
+    transition: left 1.2s ease-in-out;
+    
+    
+}
+
+form {
+    display: flex;
+    
+    flex-direction: column;
+    background: #f8f8f8;
+    width: 600px;
+    height: 100%;
+    padding: 20px;
+    
+}
+
+.cart-close-cont{
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.cart-title-cont{
+    text-align: center;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 40px;
+
+
+}
+
+.cart-orders-cont .cart-product-cont .cart-product-bg{
+    width: 243px;
+    height: 167px;
+    border-radius: 16px;
+    background: #EFC900;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-right: 20px;
+}
+
+.cart-orders-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cart-orders-cont .cart-product-cont .cart-product-bg img{
+    transform: scale(.6);
+    transition: transform 0.3s;
+}
+
+.cart-orders-cont .cart-product-cont .cart-product-bg img:hover{
+    transform: scale(.7);
+    
+}
+
+.cart-orders-cont .cart-product-desc .cart-top-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-orders-cont .cart-product-desc .cart-bottom-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cart-orders-cont .cart-product-desc .cart-top-desc .cart-prod-name{
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart-orders-cont .cart-product-desc .cart-top-desc .cart-remove{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
+}
+
+.cart-orders-cont .cart-product-desc .cart-bottom-desc .cart-prod-price{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart-subtotal-cont{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 220px;
+
+}
+
+.cart-subtotal-cont .subtotal-cart-tag{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.cart-subtotal-cont .cart-sub-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-subtotal-cont .cart-sub-cont .cart-subprice{
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-top: -40px;
+}
+
+.cart-subtotal-cont .cart-sub-cont .cart-desc{
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: -50px;
+}
+
+.cart-subtotal-cont .cart-sub-cont .cart-submit{
+    width: 191px;
+    height: 73px;
+    border-radius: 9px;
+    background: #FDE402;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
